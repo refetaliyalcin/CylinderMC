@@ -7,7 +7,7 @@ Thickness of coating, volume fraction and radius of fibers can be modified from 
 
 Execute main.m to run the code, if the parallel toolbox is available code will be run on parallel
 
-calccyl.m missing for now, I am still waiting to take the proper permission from Jan Schäfer 
+calccyl.m is missing for now, I am still waiting to take the proper permission from Jan Schäfer 
 
 It can be downloaded from the link below:
 https://www.mathworks.com/matlabcentral/fileexchange/36831-matscat

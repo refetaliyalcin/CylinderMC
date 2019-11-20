@@ -4,6 +4,8 @@ function [T1, C] = calccyl( r, ns, nm, lambda, nang, zeta)
 	%   Author: Jan Schäfer (jan.schaefer@ilm.uni-ulm.de)
 	%   Organization: Institut für Lasertechnologien in der Medizin und
 	%       Meßtechnik an der Universität Ulm (http://www.ilm-ulm.de)
+	
+	% modified from the original version by refet ali yalcin
 	k = 2*pi/lambda*nm;     % wavenumber in outer medium nm
 	x = k*r;                % size parameter
 	m = ns/nm;              % relative refractive index

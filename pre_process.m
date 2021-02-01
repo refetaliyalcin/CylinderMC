@@ -19,7 +19,7 @@ alfa=zeros(length(gelen_acilar),length(lamda));
 beta=zeros(length(gelen_acilar),length(lamda));
 
 nm = 1;         % outer medium refractive index (real) which is air
-x2=transpose(linspace(0,1,nang_gid));
+x2=cos(transpose(linspace(0,pi,nang_gid)));
 for i=1:length(lamda)    
 %     i*100/length(lamda)
     ns = sio2_n(lamda(i)) + sio2_k(lamda(i))*1j;     % cylinder refractive index (complex)
